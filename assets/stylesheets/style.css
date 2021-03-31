@@ -413,6 +413,10 @@ a{
     color: #617481;
     margin-top: 15px;
 }
+.name span{
+    vertical-align:middle;
+}
+
 
 /* recent-news  */
 
@@ -429,11 +433,13 @@ a{
     background-color: var(--primary);
     padding: 60px 0;
 }
-.call-back h3,.call-back p{
+.call-back h3{
+    line-height:1;
     color: rgb(228, 228, 228);
-} 
+}
 .call-back p{
     margin-top: 22px;
+    color: rgb(228, 228, 228);
 }
 .form-control{
     width: 100%;
@@ -467,6 +473,9 @@ input::placeholder{
 .footer .brand-and-social-nav{
     padding: 14px 30px 0px 0px;
 }
+.footer h5{
+    color: var(--primary);
+}
 .company a,.footer-services a,.address,.address a{
     font-size: var(--primary-font-size);
     color: var(--font-color);
@@ -480,6 +489,7 @@ input::placeholder{
 }
 .red{
     color: var(--secondary);
+    margin-right: 4px;
 }
 .last-text{
     margin-bottom: 40px;
